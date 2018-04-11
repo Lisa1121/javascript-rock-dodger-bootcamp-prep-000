@@ -97,7 +97,7 @@ var gameInterval = null
  
 function moveDodgerRight() {
   window.requestAnimationFrame(function() {
-    var leftNumbers=DODGER.style.left.replace("px","")
+    var leftNumbers=DODGER.style.left.replace('px',''
     var left=parseInt(leftNumbers,10)
     if(left<360){
       DODGER.style.left=`${left+14}px`
